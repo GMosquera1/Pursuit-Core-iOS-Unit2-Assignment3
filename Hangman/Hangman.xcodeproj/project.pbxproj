@@ -35,6 +35,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		055C581421A9CE8A006EDB33 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57FCB5F521A36D3D00163B8E /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		055C581621A9CEF9006EDB33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57FCB5F321A36D3D00163B8E /* AppDelegate.swift */,
+				57FCB5FA21A36D3E00163B8E /* Assets.xcassets */,
+				57FCB5FC21A36D3E00163B8E /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		57FCB5E721A36D3D00163B8E = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +72,9 @@
 		57FCB5F221A36D3D00163B8E /* Hangman */ = {
 			isa = PBXGroup;
 			children = (
-				57FCB5F321A36D3D00163B8E /* AppDelegate.swift */,
-				57FCB5F521A36D3D00163B8E /* ViewController.swift */,
+				055C581421A9CE8A006EDB33 /* Controllers */,
 				57FCB5F721A36D3D00163B8E /* Main.storyboard */,
-				57FCB5FA21A36D3E00163B8E /* Assets.xcassets */,
-				57FCB5FC21A36D3E00163B8E /* LaunchScreen.storyboard */,
+				055C581621A9CEF9006EDB33 /* Supporting Files */,
 				57FCB5FF21A36D3E00163B8E /* Info.plist */,
 			);
 			path = Hangman;
@@ -283,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DV268QUJB;
 				INFOPLIST_FILE = Hangman/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,6 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9DV268QUJB;
 				INFOPLIST_FILE = Hangman/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
