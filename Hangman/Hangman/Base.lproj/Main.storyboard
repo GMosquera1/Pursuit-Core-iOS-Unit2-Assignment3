@@ -36,8 +36,8 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Hangman Game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWf-Cz-Nee">
-                                <rect key="frame" x="0.0" y="20" width="375" height="39"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="49.5"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="38"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -50,17 +50,17 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EmP-Rh-OTA">
-                                <rect key="frame" x="44" y="70" width="287" height="151"/>
+                                <rect key="frame" x="44" y="102.5" width="287" height="151.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Welcome to Hangman!                                 This is a two player game! Player 1 will type in their word into the first blank box. The word will remain hidden and it is up to Player 2 to make a guess on the second blank box. Enter one letter at a time. Have fun!</string>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.94031566381454468" green="0.73904067277908325" blue="0.78349071741104126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="rfl-0i-NQi" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1eH-4V-kV6"/>
-                            <constraint firstItem="bZv-B2-xY6" firstAttribute="top" secondItem="EmP-Rh-OTA" secondAttribute="bottom" constant="44" id="1kQ-gD-UVk"/>
+                            <constraint firstItem="bZv-B2-xY6" firstAttribute="top" secondItem="EmP-Rh-OTA" secondAttribute="bottom" constant="11" id="1kQ-gD-UVk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vWf-Cz-Nee" secondAttribute="trailing" id="4Yi-EU-Iif"/>
                             <constraint firstItem="bZv-B2-xY6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="7Ux-9S-mhp"/>
                             <constraint firstItem="rfl-0i-NQi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="7fY-qU-Dms"/>
@@ -68,7 +68,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rfl-0i-NQi" secondAttribute="trailing" constant="55" id="CRs-dv-HBk"/>
                             <constraint firstItem="AO1-oU-p95" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="Duu-mA-N3S"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AO1-oU-p95" secondAttribute="trailing" constant="44" id="L8b-kH-6qe"/>
-                            <constraint firstItem="EmP-Rh-OTA" firstAttribute="top" secondItem="vWf-Cz-Nee" secondAttribute="bottom" constant="11" id="OIO-Ob-jzQ"/>
+                            <constraint firstItem="EmP-Rh-OTA" firstAttribute="top" secondItem="vWf-Cz-Nee" secondAttribute="bottom" constant="33" id="OIO-Ob-jzQ"/>
                             <constraint firstItem="vWf-Cz-Nee" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ret-tZ-5dc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EmP-Rh-OTA" secondAttribute="trailing" constant="44" id="VmG-6v-4fG"/>
                             <constraint firstItem="AO1-oU-p95" firstAttribute="centerX" secondItem="rfl-0i-NQi" secondAttribute="centerX" id="XiS-bq-m60"/>
