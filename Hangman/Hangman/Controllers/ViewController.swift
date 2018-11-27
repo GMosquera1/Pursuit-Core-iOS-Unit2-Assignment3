@@ -19,7 +19,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var instructions: UITextView!
     @IBOutlet weak var guessedLetter: UITextField!
     @IBOutlet weak var correctGuesses: UILabel!
-    @IBOutlet weak var newGame: UITextField!
+   
+    @IBAction func newGame(_ sender: UIButton) {
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
