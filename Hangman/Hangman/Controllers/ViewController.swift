@@ -89,6 +89,16 @@ extension ViewController: UITextFieldDelegate{
         switch strikes{
         case 1:
             hangImage.image = UIImage.init(named: "hang2")
+        case 2:
+            hangImage.image = UIImage.init(named: "hang3")
+        case 3:
+            hangImage.image = UIImage.init(named: "hang4")
+        case 4:
+            hangImage.image = UIImage.init(named: "hang5")
+        case 5:
+            hangImage.image = UIImage.init(named: "hang6")
+        case 6:
+            hangImage.image = UIImage.init(named: "hang7")
         default:
             print("nope")
     
